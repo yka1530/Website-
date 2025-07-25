@@ -1,0 +1,50 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: all 0.3s ease;
+}
+:root {
+  --bg: #ffffff;
+  --text: #111111;
+}
+.dark {
+  --bg: #111111;
+  --text: #ffffff;
+}
+main {
+  text-align: center;
+  padding: 40px 20px;
+}
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.controls button {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 1.2em;
+}
+.email {
+  display: block;
+  margin: 15px auto;
+  font-size: 1.1em;
+  text-decoration: none;
+  color: var(--text);
+}
+.socials {
+  margin-top: 20px;
+}
+.socials img {
+  width: 32px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
