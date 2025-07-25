@@ -1,0 +1,54 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+.controls {
+  text-align: center;
+  margin: 20px;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #0077b6;
+  color: white;
+}
+
+header, section, footer {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.light {
+  background-color: #f0f0f0;
+  color: #222;
+}
+
+.light section, .light header, .light footer {
+  background-color: white;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.dark {
+  background-color: #121212;
+  color: #eee;
+}
+
+.dark section, .dark header, .dark footer {
+  background-color: #1e1e1e;
+  box-shadow: 0 0 10px #000;
+}
+
+h2 {
+  color: #0077b6;
+}
